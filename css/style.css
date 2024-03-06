@@ -2,22 +2,34 @@ td, th {
 	border: 1px solid;
   }
   
-body {
+#main_content{
   background-image: url("../images/red_black_bg.jpg");
-  font-family: "Anta", sans-serif;
+  font-family: "Anta" , sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-h1 {
+#main_header {
   color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-style: italic;
+  background-color: red;
 }
 
 tr {
-background-color: rgb(132,243,217);
-font-size: 30px;
-border: dashed;
+  background-color: rgb(132,243,217);
+  font-size: 30px;
+  border: dashed;
 }
+
+#planet_view {
+  background-color: red;
+}
+
 /* going to comment this out to see how it affects the fonts
 .anta-regular {
   font-family: "Anta", sans-serif;
@@ -30,8 +42,7 @@ border: dashed;
   width: 75%;
   margin: auto;
   border: 5px solid white;
+  text-align: center;
 }
 
-#fact_category{
-  border: 5px solid white;
-}
+
