@@ -1,5 +1,5 @@
 td, th {
-	border: 1px solid;
+	border: 2px solid gray;
   }
   
 #main_content{
@@ -7,6 +7,7 @@ td, th {
   font-family: "Anta" , sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 30px;
 }
 
 #main_header {
@@ -25,11 +26,36 @@ tr {
   font-size: 30px;
   border: dashed;
 }
-
-#planet_view {
-  background-color: red;
+#table_area{
+  background-image: url();
+}
+#planets {
+  width: 75%;
+  margin: auto;
+  border: 5px solid white;
+  text-align: center;
 }
 
+
+#planet_view {
+    background-image: url("../images/space_stars.jpg");
+    color: white;
+}
+
+#temp {
+  background-image: linear-gradient(to right, #4bc1ff, #00a4ff, #0082ff, #1500fb, #0059ff);
+}
+
+#footer {
+  margin-top: 80px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: red;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 /* going to comment this out to see how it affects the fonts
 .anta-regular {
   font-family: "Anta", sans-serif;
@@ -37,12 +63,5 @@ tr {
   font-style: normal;
 }
 */
-
-#planets {
-  width: 75%;
-  margin: auto;
-  border: 5px solid white;
-  text-align: center;
-}
 
 
