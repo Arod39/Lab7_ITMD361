@@ -2,13 +2,21 @@ td, th {
 	border: 1px solid;
   }
   
+body {
+  background-image: url("../images/red_black_bg.jpg");
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: white;
+}
+
 tr {
 background-color: rgb(132,243,217);
 font-size: 30px;
 border: dashed;
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 /* going to comment this out to see how it affects the fonts
 .anta-regular {
@@ -21,9 +29,9 @@ border: dashed;
 #planets {
   width: 75%;
   margin: auto;
+  border: 5px solid white;
 }
 
-fact_category {
-  width: 80%
-  margin: auto;
+#fact_category{
+  border: 5px solid white;
 }
