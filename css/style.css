@@ -1,5 +1,5 @@
 td, th {
-	border: 1px solid transparent;
+	border: 1px solid black;
   }
   
 #main_content{
@@ -21,6 +21,11 @@ td, th {
   background-color: red;
 }
 
+#table_headers {
+  background-image: url("../images/space_stars.jpg");
+  color: white;
+}
+
 tr {
   background-color: rgb(132,243,217);
   font-size: 30px;
@@ -36,8 +41,8 @@ tr {
 
 #planet_view {
     background-image: url("../images/space_stars.jpg");
-    color: white;
     margin: auto;
+    color: white;
 }
 
 #jupiter:hover {
