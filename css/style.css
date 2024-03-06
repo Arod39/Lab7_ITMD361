@@ -1,5 +1,5 @@
 td, th {
-	border: 2px solid gray;
+	border: 1px solid transparent;
   }
   
 #main_content{
@@ -26,9 +26,7 @@ tr {
   font-size: 30px;
   border: dashed;
 }
-#table_area{
-  background-image: url();
-}
+
 #planets {
   width: 75%;
   margin: auto;
@@ -36,10 +34,25 @@ tr {
   text-align: center;
 }
 
-
 #planet_view {
     background-image: url("../images/space_stars.jpg");
     color: white;
+    margin: auto;
+}
+
+#jupiter:hover {
+  transform: scale(1.1);
+}
+
+#saturn:hover {
+  transform: scale(1.1);
+}
+
+#neptune:hover {
+  transform: scale(1.1);
+}
+#uranus:hover {
+  transform: scale(1.1);
 }
 
 #temp {
@@ -47,15 +60,16 @@ tr {
 }
 
 #footer {
-  margin-top: 80px;
   font-size: 30px;
   color: white;
   text-align: center;
   background-color: red;
+  margin-top: 80px;
   margin-bottom: 80px;
   margin-left: 80px;
   margin-right: 80px;
 }
+
 /* going to comment this out to see how it affects the fonts
 .anta-regular {
   font-family: "Anta", sans-serif;
